@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden !important;
 }
 .min-height-100{
     height: 100vh;
@@ -42,24 +43,19 @@
     border-radius: 12px;
 }
 
-.social ul li:first-child a span {
-    background-color: #3b5998;
-}
-
-.social ul li:nth-child(2) a span {
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-}
-
-.social ul li:nth-child(3) a span {
+.social ul li:nth-child(1) a span {
     background-color: #00aff0;
 }
 
-.social ul li:nth-child(4) a span {
+.social ul li:nth-child(2) a span {
     background-color: #0072b1;
 }
 
-.social ul li:nth-child(5) a span {
+.social ul li:nth-child(3) a span {
     background-color: #af0e0e;
+}
+.social ul li:nth-child(4) a span {
+    background-color: #000000;
 }
 
 .social ul li a:hover span:nth-child(1) {
