@@ -81,9 +81,3 @@
     opacity: .7;
     border-radius: 50%;
 }
-
-.social ul li a:hover span:nth-child(5) {
-    transform: translate(00px, 0px);
-    opacity: 1;
-    border-radius: 50%;
-}
